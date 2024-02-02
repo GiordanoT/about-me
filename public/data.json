@@ -1,4 +1,34 @@
 {
   "firstname": "Giordano",
-  "lastname": "Tinella"
+  "lastname": "Tinella",
+  "profession": "Software Engineer",
+  "email": "giordanotinella@gmail.com",
+  "location": "Francavilla al Mare, Italy",
+  "education": [
+    {
+      "years": "2022 - now",
+      "title": "MSc: Software Engineering",
+      "place": "Università degli Studi dell'Aquila",
+      "score": "X"
+    },
+    {
+      "years": "2018 - 2022",
+      "title": "BSc: Computer Science",
+      "place": "Università degli Studi dell'Aquila",
+      "score": "108/110"
+    },
+    {
+      "years": "2013 - 2018",
+      "title": "IT Expert",
+      "place": "I.I.S. Volta Pescara",
+      "score": "94/100"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS/SCSS",
+    "Javascript/Typescript",
+    "Node.js",
+    "React"
+  ]
 }
