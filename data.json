@@ -1,4 +1,44 @@
 {
   "firstname": "Giordano",
-  "lastname": "Tinella"
+  "lastname": "Tinella",
+  "profession": "Software Engineer",
+  "email": "giordanotinella@gmail.com",
+  "location": "Francavilla al Mare, Italy",
+  "about": "I'm a Master's student specializing in Advanced Software Engineering with a focus on Model-Driven Engineering (MDE). I primarily work with TypeScript and React to develop dynamic web applications. I'm passionate about exploring innovative solutions to real-world problems and constantly seek to expand my knowledge in software engineering.",
+  "education": [
+    {
+      "years": "2022 - now",
+      "title": "MSc: Software Engineering",
+      "place": "Università degli Studi dell'Aquila",
+      "score": "X"
+    },
+    {
+      "years": "2018 - 2022",
+      "title": "BSc: Computer Science",
+      "place": "Università degli Studi dell'Aquila",
+      "score": "108/110"
+    },
+    {
+      "years": "2013 - 2018",
+      "title": "IT Expert",
+      "place": "I.I.S. Volta Pescara",
+      "score": "94/100"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS/SCSS",
+    "Javascript/Typescript",
+    "Node.js",
+    "React",
+    "Docker"
+  ],
+  "publications": [
+    {
+      "year": 2023,
+      "title": "jjodel – A reflective cloud-based modeling framework",
+      "place": "MODELS",
+      "file": "MODELS_2023.pdf"
+    }
+  ]
 }
