@@ -11,12 +11,21 @@ export type EducationHistory = {
   place: string,
   score: string
 };
+export type Publication = {
+  year: number,
+  title: string,
+  authors: string[],
+  place: string,
+  file: string
+};
 export type Data = {
   firstname: string,
   lastname: string,
   profession: string,
   email: string,
   location: string,
+  about: string,
   education: EducationHistory[],
-  skills: string[]
+  skills: string[],
+  publications: Publication[]
 };

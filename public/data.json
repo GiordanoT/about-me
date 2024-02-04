@@ -4,6 +4,7 @@
   "profession": "Software Engineer",
   "email": "giordanotinella@gmail.com",
   "location": "Francavilla al Mare, Italy",
+  "about": "I'm a Master's student specializing in Advanced Software Engineering with a focus on Model-Driven Engineering (MDE). I primarily work with TypeScript and React to develop dynamic web applications. I'm passionate about exploring innovative solutions to real-world problems and constantly seek to expand my knowledge in software engineering.",
   "education": [
     {
       "years": "2022 - now",
@@ -29,6 +30,15 @@
     "CSS/SCSS",
     "Javascript/Typescript",
     "Node.js",
-    "React"
+    "React",
+    "Docker"
+  ],
+  "publications": [
+    {
+      "year": 2023,
+      "title": "jjodel – A reflective cloud-based modeling framework",
+      "place": "MODELS",
+      "file": "MODELS_2023.pdf"
+    }
   ]
 }

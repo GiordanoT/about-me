@@ -1,6 +1,4 @@
-import {GenericProps} from "../common/types";
-import {Icon} from "./Icon";
-import SVG from "../common/SVG";
+import {GenericProps} from '../common/types';
 
 type Props = GenericProps & {firstname: string, lastname: string, profession: string}
 function Header(props: Props) {
@@ -10,8 +8,8 @@ function Header(props: Props) {
         <ul className={'flex flex-wrap justify-end gap-2'}>
             <li>
                 <a href={'https://github.com/GiordanoT'} target={'_blank'} rel={'noreferrer'}
-                   className={'bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded'}>
-                    <Icon className={'w-5 h-5 fill-current'} viewBox={'0 0 24 24'} path={SVG.github} />
+                   className={'bg-gray-700 font-semibold text-white inline-flex items-center space-x-2 rounded'}>
+                    <i className={'text-xl px-2 py-1 bi bi-github'} />
                 </a>
             </li>
         </ul>
