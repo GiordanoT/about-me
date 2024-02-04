@@ -1,6 +1,6 @@
 import {GenericProps} from '../common/types';
 
-type Props = GenericProps & {topics: string[]}
+type Props = GenericProps & {topics: string[]};
 function Skills(props: Props) {
     const {topics} = props;
     return(<section>

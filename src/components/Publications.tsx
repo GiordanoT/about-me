@@ -1,6 +1,6 @@
 import {GenericProps, Publication} from '../common/types';
 
-type Props = GenericProps & {papers: Publication[]}
+type Props = GenericProps & {papers: Publication[]};
 function Publications(props: Props) {
     const {papers} = props;
     return(<section>
@@ -12,10 +12,10 @@ function Publications(props: Props) {
                         {paper.place} {paper.year}
                     </label>
                     <div className={'flex justify-between mt-2'}>
-                        <strong>{paper.title}</strong>
-                        <a href={`/papers/${paper.file}`} download={paper.file}
-                           className={'bg-gray-700 font-semibold text-white inline-flex items-center space-x-2 rounded'}>
-                            <i className={'text-sm px-2 py-1 bi bi-download'} />
+                        <strong className={'my-auto'}>{paper.title}</strong>
+                        <a href={`https://github.com/GiordanoT/about-me/blob/build/papers/${paper.file}`} target={'_blank'} rel={'noreferrer'}
+                           className={'bg-gray-700 p-2 text-white inline-flex items-center space-x-2 rounded text-xs'}>
+                            View
                         </a>
                     </div>
                 </li>);
