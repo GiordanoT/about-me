@@ -612,10 +612,6 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
@@ -715,4 +711,4 @@ video {
 }
 
 
-/*# sourceMappingURL=main.99127f5d.css.map*/
+/*# sourceMappingURL=main.10a9273d.css.map*/
