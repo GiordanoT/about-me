@@ -8,7 +8,7 @@ function Publications(props: Props) {
         <ul className={'mt-1'}>
             {papers.map((paper, index) => {
                 return(<li key={index} className={'py-2'}>
-                    <label className={'bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded'}>
+                    <label className={`bg-${paper.color} text-white px-2 py-1 mr-1 text-sm rounded`}>
                         {paper.place} {paper.year}
                     </label>
                     <div className={'flex justify-between mt-2'}>

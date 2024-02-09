@@ -26,18 +26,18 @@
     }
   ],
   "skills": [
-    "HTML",
-    "CSS/SCSS",
-    "Javascript/Typescript",
-    "Node.js",
-    "React",
-    "Docker"
+    "python",
+    "typescript",
+    "node.js",
+    "react",
+    "docker"
   ],
   "publications": [
     {
       "year": 2023,
       "title": "jjodel – A reflective cloud-based modeling framework",
       "place": "MODELS",
+      "color": "blue-600",
       "file": "MODELS_2023.pdf"
     }
   ]

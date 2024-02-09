@@ -16,6 +16,7 @@ export type Publication = {
   title: string,
   authors: string[],
   place: string,
+  color: string,
   file: string
 };
 export type Data = {
